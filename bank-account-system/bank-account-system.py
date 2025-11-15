@@ -19,11 +19,14 @@ class Bank:
     def show_balance(self):
         print(f"balance: ${self._balance:.1f}")
     def dep_money(self):
-        amount=float(input("Enter the amount to deposit"))
+        amount=float(input("Enter the amount to deposit: "))
         self._balance+=amount
     def with_money(self):
-        amount=float(input("Enter the amount to deposit"))
-        self._balance-=amount
+        amount=float(input("Enter the amount to deposit: "))
+        if amount>self._balance:
+            print("The amount you withdraw cannot exceed your balance.")
+        else:
+            self._balance-=amount
 
 class Sav_Account(Bank):
     def __init__(self,name,epassword,balance):
