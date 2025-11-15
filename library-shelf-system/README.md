@@ -1,9 +1,9 @@
-#📚 Bookshelf Manager
+📚 Bookshelf Manager
 
 A simple and clean Object-Oriented project that simulates a bookshelf system.
 You can create shelves, add books, remove books, display shelf contents, and check if a specific book exists on a shelf.
 
-#🚀 Features
+🚀 Features
 
   Create shelves with custom names
 
@@ -17,9 +17,8 @@ You can create shelves, add books, remove books, display shelf contents, and che
 
   Fully Object-Oriented structure (classes & objects)
 
-#📦 Class Structure
-##Shelf
-
+📦 Class Structure
+Shelf
 Holds a list of books:
 
   add_book() → adds book to shelf
