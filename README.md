@@ -1,5 +1,5 @@
 # 🧠 My Mini Python Projects  
-### 👋 Hi, I'm **Halil Kurtmen**  
+### 👋 Hi, I'm **Halil**  
 A passionate learner exploring the world of Python — building small but meaningful projects to improve my skills every day.  
 
 ---
