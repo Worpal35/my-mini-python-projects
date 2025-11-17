@@ -1,44 +1,51 @@
-Password Strength Checker
+# 🔐 Password Strength Checker
 
-This project is a simple Python-based password validation tool. It checks whether a password contains no spaces and meets the minimum length requirement (6+ valid characters).
+A simple Python-based password validation tool that checks for spaces, enforces a minimum length requirement, and ensures the password contains only allowed characters.
 
-📌 Features
+---
 
-Detects spaces in the password.
+# 📌 Features
 
-Checks if the password contains at least 6 characters consisting of:
+* Detects spaces in the password
 
-Letters (A–Z, a–z)
+* Validates that the password contains at least 6 characters
 
-Digits (0–9)
+* Accepts the following character types:
 
-Special characters: ^ ! @ # $ % ^ & * _ ?
+* Letters: A–Z, a–z
 
-Prints whether the password is strong or weak.
+* Digits: 0–9
 
-💻 How to Run
+* Special characters: ^ ! @ # $ % ^ & * _ ?
 
-Make sure you have Python installed.
+* Prints whether the password is strong or weak
 
-Save the script as password_checker.py.
+# 💻 How to Run
 
-Run the following command in your terminal:
+Make sure you have Python installed
+
+Save the script as password_checker.py
+
+Run it using:
+
+```bash
 
 python password_checker.py
+```
+
 
 Enter a password when prompted.
 
-📂 Project Files
+# # 📂 Project Files
+```
+password_checker/
+├── password_checker.py
+```
 
-password_checker.py — Main script
+# 🧪 Example Usage
+Enter the password: Abcd123!
+Your password(Abcd123!) is strong.
 
-README.md — Project documentation
-
-🧪 Example Usage
-Enter the password: abcd123!
-Your password(abcd123!) is strong.
-
-
-🏷️ Project Name
+# 🏷️ Project Name
 
 Password Strength Checker
