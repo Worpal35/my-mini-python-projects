@@ -54,7 +54,7 @@ Represents a single book.
 # 📂 File Structure
 
 ```
-bookshelf-manager/
+library-shelf-system/
 ├── library-shelf-system.py
 ```
 
