@@ -16,7 +16,7 @@ This project is a simple **RPG Game User Data Management System** written in Pyt
 ```
 project-folder/
 │
-├── main.py                 # Main program
+├── RPG-User-Database.py                 # Main program
 ├── Datas/
 │   └── USER.json           # Automatically created user database
 └── README.md               # Documentation
@@ -44,11 +44,11 @@ The program includes:
 
 1. Make sure Python is installed.
 2. Create a folder named `Datas` in the same directory.
-3. Save the script as `main.py`.
+3. Save the script as `RPG-User-Database.py`.
 4. Run this command:
 
    ```bash
-   python main.py
+   python RPG-User-Database.py
    ```
 
 ## 📝 Example Menu
