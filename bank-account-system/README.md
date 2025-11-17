@@ -1,52 +1,77 @@
 # 🏦 Bank Account System
 
-A simple OOP-based banking system that includes password verification, balance display, deposits, withdrawals, and a savings account with daily interest calculation.
+A simple **OOP-based banking system** that includes password verification, balance management, deposits, withdrawals, and a savings account that earns daily interest.
 
-This project demonstrates object-oriented programming concepts such as:
+This project demonstrates fundamental object-oriented programming concepts such as:
 
-Class inheritance
+* **Class inheritance**
+* **Data encapsulation** (`_balance`)
+* **Error handling**
+* **Input validation**
+* **Date-based interest calculation**
 
-Data encapsulation (_balance)
+---
 
-Error handling
+# 🚀 Features
 
-Input validation
+## 🔹 Bank Class
 
-Date-based calculations
+* Password-protected account creation
+* Display balance
+* Deposit money
+* Withdraw money
 
-# #  🚀 Features
-🔸 Bank Class
+## 🔹 Savings Account (`Sav_Account`)
 
-Password-protected account creation
+* Inherits all features of `Bank`
+* Allows investing part of the balance into interest
+* Calculates earned interest based on real calendar days
+* Automatically adds earned interest back into the main balance
 
-Display balance
+---
 
-Deposit money
+# 📘 Available Methods
 
-Withdraw money
+## 🏦 **Bank Class Methods**
 
-🔸 Savings Account (Sav_Account)
+| Method                               | Parameters                                          | Description                      |
+| ------------------------------------ | --------------------------------------------------- | -------------------------------- |
+| `show_balance()`                     | —                                                   | Displays the current balance     |
+| `dep_money()`                        | user input                                          | Deposits money into the account  |
+| `with_money()`                       | user input                                          | Withdraws money from the account |
+| `__init__(name, epassword, balance)` | `name: str`, `epassword: int`, `balance: float/int` | Creates a protected bank account |
 
-Inherits everything from Bank
+---
 
-Ability to invest part of the balance into interest
+## 💰 **Sav_Account Class Methods**
 
-Calculates earned interest based on real calendar days
+| Method           | Parameters   | Description                                                                    |
+| ---------------- | ------------ | ------------------------------------------------------------------------------ |
+| `interest()`     | user input   | Deposits money into interest, calculates profit, and adds it back into balance |
+| `show_balance()` | —            | *(Inherited)* Shows current balance                                            |
+| `dep_money()`    | user input   | *(Inherited)* Deposit money                                                    |
+| `with_money()`   | user input   | *(Inherited)* Withdraw money                                                   |
+| `__init__()`     | same as Bank | *(Inherited)* Creates a savings account                                        |
 
-Adds earned interest back into balance
+---
 
-# #  📘 Available Methods
-# # #  🏦 Bank Class Methods
-Method	Parameters	Description:
-show_balance()	—	Shows the current account balance
-dep_money()	User input	Deposits money into the account
-with_money()	User input	Withdraws money from the account
-__init__(name, epassword, balance)	name: str, epassword: int, balance: float/int	Creates a protected bank account
+# 📂 File Structure
 
-# # #  💰 Sav_Account Class Methods
-Method	Parameters	Description:
-interest()	User input	Deposits money into interest, calculates earnings, and adds profit to balance
-Inherits show_balance()	—	Shows balance
-Inherits dep_money()	User input	Deposit money
-Inherits with_money()	User input	Withdraw money
-Inherits __init__()	same as Bank	Creates savings account
+```
+bank-account-system/
+└── main.py
+```
+
+# ▶️ How to Run
+
+```bash
+python main.py
+```
+
+Follow the on-screen instructions.
+
+---
+
+# 📜 License
+
+This project uses the MIT License.
