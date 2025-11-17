@@ -1,36 +1,75 @@
-📚 Bookshelf Manager
+# 📚 Bookshelf Manager
 
-A simple and clean Object-Oriented project that simulates a bookshelf system.
-You can create shelves, add books, remove books, display shelf contents, and check if a specific book exists on a shelf.
+A simple and clean **Object-Oriented Python project** that simulates a virtual bookshelf system. You can create shelves, add books, remove books, check their existence, and display all stored books — all using an OOP-based structure.
 
-🚀 Features
+---
 
-  Create shelves with custom names
+# 🚀 Features
 
-  Create books with title, author, and page count
+* Create shelves with custom names
+* Create books with title, author, and page count
+* Add books to shelves
+* Remove books from shelves
+* Display all books stored in a shelf
+* Check if a specific book exists on a shelf
+* Fully Object-Oriented structure using **classes and objects**
 
-  Add and remove books from shelves
+---
 
-  Display full shelf contents
+# 🧩 Class Structure
 
-  Check if a specific book is located on a shelf
+## 🗄️ **Shelf Class**
 
-  Fully Object-Oriented structure (classes & objects)
+Manages a list of books.
 
-📦 Class Structure
-Shelf
-Holds a list of books:
+### Methods:
 
-  add_book() → adds book to shelf
+| Method                 | Description                          |
+| ---------------------- | ------------------------------------ |
+| `add_book(book)`       | Adds a book to the shelf             |
+| `del_book(book_title)` | Removes a book by title              |
+| `show_library()`       | Displays all books in the shelf      |
+| `on_shelf(book_title)` | Checks if a book exists on the shelf |
 
-  del_book() → removes book
+---
 
-  show_library() → displays all books
+## 📖 **Book Class**
 
-  on_shelf() → checks if a book exists
+Represents a single book.
 
-Book:
+### Attributes:
 
-Contains book data: title, author, page number
+* `title` — Title of the book
+* `author` — Author name
+* `page` — Number of pages
 
-Includes method show_book() to print details
+### Methods:
+
+| Method        | Description                              |
+| ------------- | ---------------------------------------- |
+| `show_book()` | Prints the title, author, and page count |
+
+---
+
+# 📂 File Structure
+
+```
+bookshelf-manager/
+├── library-shelf-system.py
+```
+
+---
+
+# ▶️ How to Run
+
+```bash
+python library-shelf-system.py
+```
+
+Follow the menu instructions or modify the script to test the classes.
+
+---
+
+# 📜 License
+
+This project uses the MIT License.
