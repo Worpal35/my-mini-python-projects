@@ -59,13 +59,13 @@ This project demonstrates fundamental object-oriented programming concepts such 
 
 ```
 bank-account-system/
-└── main.py
+└── bank-account-system.py
 ```
 
 # ▶️ How to Run
 
 ```bash
-python main.py
+python bank-account-system.py
 ```
 
 Follow the on-screen instructions.
