@@ -1,4 +1,4 @@
-🏦 Bank Account System
+# 🏦 Bank Account System
 
 A simple OOP-based banking system that includes password verification, balance display, deposits, withdrawals, and a savings account with daily interest calculation.
 
@@ -14,7 +14,7 @@ Input validation
 
 Date-based calculations
 
-🚀 Features
+# # 🚀 Features
 🔸 Bank Class
 
 Password-protected account creation
@@ -35,15 +35,15 @@ Calculates earned interest based on real calendar days
 
 Adds earned interest back into balance
 
-📘 Available Methods
-🏦 Bank Class Methods
+# # 📘 Available Methods
+# # # 🏦 Bank Class Methods
 Method	Parameters	Description:
 show_balance()	—	Shows the current account balance
 dep_money()	User input	Deposits money into the account
 with_money()	User input	Withdraws money from the account
 __init__(name, epassword, balance)	name: str, epassword: int, balance: float/int	Creates a protected bank account
 
-💰 Sav_Account Class Methods
+# # # 💰 Sav_Account Class Methods
 Method	Parameters	Description:
 interest()	User input	Deposits money into interest, calculates earnings, and adds profit to balance
 Inherits show_balance()	—	Shows balance
